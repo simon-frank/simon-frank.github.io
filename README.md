@@ -8,23 +8,21 @@
 
 ## Work Experience
 
-** Tool Developer @ Robert Bosch GmbH ( _November 2019_ - _October 2021_)
+** Tool Developer @ Robert Bosch GmbH ( _November 2019_ - _October 2021_) ** 
 - Development and automation of toolchains for checking and determining metadata and storing data records from driver assistance systems (radar and video) for commercial vehicles
 - Coordination of video and radar toolchain for determining and storing jointly recorded data records
 - Adaptation of the toolchains to the different vehicles and countries of the endurance run
 - Adaptation of the toolchains to the different vehicles and countries of the endurance run.
 
-** Working Student @ Robert Bosch GmbH (_October 2016_ - _September 2019_)
+** Working Student @ Robert Bosch GmbH (_October 2016_ - _September 2019_) **
 - Development of software to operate a mobile spectrometer
 - Implementation of a communication protocol between a machine diagnostic set and a Manufacturing
 Execution System server for a log register with subsequent data mining
 
 
-## Projects {#projects}
+## Projects 
 
 During my master studies in Computer Science at the University of Tübingen I did a lot of projects. Some are listed below: 
-
-
 
 ### Research Project 
 
