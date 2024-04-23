@@ -2,8 +2,10 @@
 
 
 ## Education								       		
-- M.S., Computer Science | Eberhard Karls University Tübingen (_October 2021_ - Present)	 			        		
-- B.Eng., Computer Science (IT-Automotive) | Baden-Wuerttemberg Cooperative State University (DHBW) Stuttgart (_October 2016_ - _September 2019_)
+**Master of Sciene Computer Science**
+- Eberhard Karls University Tübingen (_October 2021_ - Present)
+**Bachelor of Engineering Computer Science (IT-Automotive)**
+- Baden-Wuerttemberg Cooperative State University (DHBW) Stuttgart (_October 2016_ - _September 2019_)
 
 
 ## Work Experience
