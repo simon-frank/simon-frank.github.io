@@ -1,11 +1,11 @@
 # Computer Scientist 
 
 
-## Education								       		
-**Master of Sciene Computer Science**
-- Eberhard Karls University Tübingen (_October 2021_ - Present)
-**Bachelor of Engineering Computer Science (IT-Automotive)**
-- Baden-Wuerttemberg Cooperative State University (DHBW) Stuttgart (_October 2016_ - _September 2019_)
+## Education		
+
+**M.S. Computer Science @ Eberhard Karls University Tübingen (_October 2021_ - Present)**
+
+**B.Eng. Computer Science (IT-Automotive) @ Baden-Wuerttemberg Cooperative State University (DHBW) Stuttgart (_October 2016_ - _September 2019_)**
 
 
 ## Work Experience
@@ -24,7 +24,7 @@ Execution System server for a log register with subsequent data mining
 
 ## Projects 
 
-During my master studies in Computer Science at the University of Tübingen I did a lot of projects. Some are listed below: 
+Below a list 
 
 ### Research Project 
 
