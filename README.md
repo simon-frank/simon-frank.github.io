@@ -28,6 +28,7 @@ Execution System server for a log register with subsequent data mining
 ### Self-Supervised Learning for Medical Image Analysis
 
 [Report](/assets/Self_Supervised_Learning.pdf)
+[Presentation](/assets/Final%20Presentation_Abgabe.pdf)
 
 In this group project we employ Barlow Twins pre-training on a ResNet-18 backbone as a self-supervised learning approach to generate transferable representations for medical image classification tasks. We attach a linear readout head to probe the feature vectors produced by the backbone and train the combined model in conjunction with two different fine-tuning strategies, namely, surgical and full fine-tuning. We evaluate the performance of our Barlow Twins model in comparison to a ResNet model pre-trained on ImageNet. Our experiment results demonstrate the superiority of our pre-trained features compared to the generic ImageNet based model on two different medical domains, showcasing the strength of utilizing Barlow Twins for enhancing performance in medical imaging classification tasks, particularly in the context of liver tumors and colorectal adenocarcinomas.
 
