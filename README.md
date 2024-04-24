@@ -24,19 +24,30 @@ Execution System server for a log register with subsequent data mining
 
 ## Projects 
 
-Below a list 
+### Self-Supervised Learning for Medical Image Analysis
 
-### Research Project 
+[Report](/assets/Self_Supervised_Learning.pdf)
 
-[Report](/assets/report_SimonFrank_research_project.pdf)
+In this group project we employ Barlow Twins pre-training on a ResNet-18 backbone as a self-supervised learning approach to generate transferable representations for medical image classification tasks. We attach a linear readout head to probe the feature vectors produced by the backbone and train the combined model in conjunction with two different fine-tuning strategies, namely, surgical and full fine-tuning. We evaluate the performance of our Barlow Twins model in comparison to a ResNet model pre-trained on ImageNet. Our experiment results demonstrate the superiority of our pre-trained features compared to the generic ImageNet based model on two different medical domains, showcasing the strength of utilizing Barlow Twins for enhancing performance in medical imaging classification tasks, particularly in the context of liver tumors and colorectal adenocarcinomas.
 
-This research project was based on [Loci](https://arxiv.org/pdf/2205.13349.pdf), a self-supervised location and identity tracking system. Loci tackles the binding problem by processing separate, slot-wise encodings of ’what’, the Gestalt code, and ’where’, the position code. During the project, the Gestalt codes were analysed. It was shown that the binary Gestalt codes are disentangled, which may be a reason for the superior performance of Loci. Various regularisation techniques were also tested during the project, but none could outperform the binary version. The architecture of Loci was extended to include a prediction module in order to be able to runclosed loop with only the Gestalt and position codes. Through special training, the prediction was correct 20 time steps into the future using the CLEVRER dataset. This method provides a computationally fast and accurate way of reasoning at conceptual levels.
+### Counterfactual Explanations and the CARLA Library
+
+There is a growing reliance on machine learning classifiers for important decisions like loan approvals, often seen as opaque black-box systems. Recourse methods are being developed to ensure human oversight and provide actionable steps to reverse adverse automated decisions, addressing the challenge of unpredictable changes and maintaining trust in decision-making processes. We implemented the Adversarially Robust Algorithmic Recourse (ARAR) algorithm in the Counterfactual And Recourse Library (CARLA). We were able to experimentally verify the robustness of ARAR, in particular in comparison to Wachter. We conducted experiments to further examine the effect of different hyperparameters to understand the inner workings of our ARAR implementation but also of the ARAR algorithm in general.
+
+![Recourse][/assets/recourse.png]
 
 ### Self-Supervised Learning for Medical Image Analysis
 
 [Report](/assets/Self_Supervised_Learning.pdf)
 
 In this group project we employ Barlow Twins pre-training on a ResNet-18 backbone as a self-supervised learning approach to generate transferable representations for medical image classification tasks. We attach a linear readout head to probe the feature vectors produced by the backbone and train the combined model in conjunction with two different fine-tuning strategies, namely, surgical and full fine-tuning. We evaluate the performance of our Barlow Twins model in comparison to a ResNet model pre-trained on ImageNet. Our experiment results demonstrate the superiority of our pre-trained features compared to the generic ImageNet based model on two different medical domains, showcasing the strength of utilizing Barlow Twins for enhancing performance in medical imaging classification tasks, particularly in the context of liver tumors and colorectal adenocarcinomas.
+
+
+### Cognitive Modeling
+
+[Report](/assets/report_SimonFrank_research_project.pdf)
+
+This research project was based on [Loci](https://arxiv.org/pdf/2205.13349.pdf), a self-supervised location and identity tracking system. Loci tackles the binding problem by processing separate, slot-wise encodings of ’what’, the Gestalt code, and ’where’, the position code. During the project, the Gestalt codes were analysed. It was shown that the binary Gestalt codes are disentangled, which may be a reason for the superior performance of Loci. Various regularisation techniques were also tested during the project, but none could outperform the binary version. The architecture of Loci was extended to include a prediction module in order to be able to runclosed loop with only the Gestalt and position codes. Through special training, the prediction was correct 20 time steps into the future using the CLEVRER dataset. This method provides a computationally fast and accurate way of reasoning at conceptual levels.
 
 ### Reinforcement Learning 
 
@@ -64,7 +75,7 @@ In this report, we attempt to answer the question of whether or not the momentum
 [Report](/assets/project.pdf)
 [Presentation](/assets/project_presentation.pdf)
 
-Cutibacterium acnes is a commensal bacterium playing a major role in healthcare associated infections, but also in a healthy skin microbiome. There are indications that C. acnes
+Cutibacterium acnes is a commensal bacterium playing a major role in healthcare associated infections, but also in a healthy skin microbiome. There are indications that C. acnes
 also appears in the human nose environment. This project followed a pipeline to create
 an genome-scale model for C. acnes, iPACH22FFG, to enable further in silico research.
 In multiple steps the quality of the model was improved by increasing its consistency and
