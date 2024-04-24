@@ -20,6 +20,7 @@
 - Development of software to operate a mobile spectrometer
 - Implementation of a communication protocol between a machine diagnostic set and a Manufacturing
 Execution System server for a log register with subsequent data mining
+- Further development of a device network for the creation of a database of measured light spectra
 
 
 ## Projects 
