@@ -31,6 +31,10 @@ Execution System server for a log register with subsequent data mining
 
 In this group project we employ Barlow Twins pre-training on a ResNet-18 backbone as a self-supervised learning approach to generate transferable representations for medical image classification tasks. We attach a linear readout head to probe the feature vectors produced by the backbone and train the combined model in conjunction with two different fine-tuning strategies, namely, surgical and full fine-tuning. We evaluate the performance of our Barlow Twins model in comparison to a ResNet model pre-trained on ImageNet. Our experiment results demonstrate the superiority of our pre-trained features compared to the generic ImageNet based model on two different medical domains, showcasing the strength of utilizing Barlow Twins for enhancing performance in medical imaging classification tasks, particularly in the context of liver tumors and colorectal adenocarcinomas.
 
+<p align="center">
+  <img src="/assets/ssl.jpg">
+</p>
+
 ### Counterfactual Explanations and the CARLA Library
 
 [Report](/assets/Counterfactual_Explanations_and_the_CARLA_Library__Copy_.pdf)
@@ -41,11 +45,6 @@ There is a growing reliance on machine learning classifiers for important decisi
   <img src="/assets/recourse.png">
 </p>
 
-### Self-Supervised Learning for Medical Image Analysis
-
-[Report](/assets/Self_Supervised_Learning.pdf)
-
-In this group project we employ Barlow Twins pre-training on a ResNet-18 backbone as a self-supervised learning approach to generate transferable representations for medical image classification tasks. We attach a linear readout head to probe the feature vectors produced by the backbone and train the combined model in conjunction with two different fine-tuning strategies, namely, surgical and full fine-tuning. We evaluate the performance of our Barlow Twins model in comparison to a ResNet model pre-trained on ImageNet. Our experiment results demonstrate the superiority of our pre-trained features compared to the generic ImageNet based model on two different medical domains, showcasing the strength of utilizing Barlow Twins for enhancing performance in medical imaging classification tasks, particularly in the context of liver tumors and colorectal adenocarcinomas.
 
 
 ### Cognitive Modeling
@@ -53,6 +52,10 @@ In this group project we employ Barlow Twins pre-training on a ResNet-18 backbon
 [Report](/assets/report_SimonFrank_research_project.pdf)
 
 This research project was based on [Loci](https://arxiv.org/pdf/2205.13349.pdf), a self-supervised location and identity tracking system. Loci tackles the binding problem by processing separate, slot-wise encodings of ’what’, the Gestalt code, and ’where’, the position code. During the project, the Gestalt codes were analysed. It was shown that the binary Gestalt codes are disentangled, which may be a reason for the superior performance of Loci. Various regularisation techniques were also tested during the project, but none could outperform the binary version. The architecture of Loci was extended to include a prediction module in order to be able to runclosed loop with only the Gestalt and position codes. Through special training, the prediction was correct 20 time steps into the future using the CLEVRER dataset. This method provides a computationally fast and accurate way of reasoning at conceptual levels.
+
+<p align="center">
+  <img src="/assets/cl_run.JPG">
+</p>
 
 ### Reinforcement Learning 
 
