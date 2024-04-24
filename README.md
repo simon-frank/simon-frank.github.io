@@ -36,7 +36,9 @@ In this group project we employ Barlow Twins pre-training on a ResNet-18 backbon
 
 There is a growing reliance on machine learning classifiers for important decisions like loan approvals, often seen as opaque black-box systems. Recourse methods are being developed to ensure human oversight and provide actionable steps to reverse adverse automated decisions, addressing the challenge of unpredictable changes and maintaining trust in decision-making processes. We implemented the Adversarially Robust Algorithmic Recourse (ARAR) algorithm in the Counterfactual And Recourse Library (CARLA). We were able to experimentally verify the robustness of ARAR, in particular in comparison to Wachter. We conducted experiments to further examine the effect of different hyperparameters to understand the inner workings of our ARAR implementation but also of the ARAR algorithm in general.
 
-![Recourse](/assets/recourse.png)
+<div style="text-align:center;">
+    ![Recourse](/assets/recourse.png)
+</div>
 
 ### Self-Supervised Learning for Medical Image Analysis
 
