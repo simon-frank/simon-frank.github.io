@@ -11,10 +11,12 @@
 ## Work Experience
 
 **Tool Developer @ Robert Bosch GmbH ( _November 2019_ - _October 2021_)** 
-- Development and automation of toolchains for checking and determining metadata and storing data records from driver assistance systems (radar and video) for commercial vehicles
+- Development and automation of toolchains for checking and determining metadata,integrating AI components such as computer vision to mark special situation such as construction sites, and storing data records from driver assistance systems (radar and video) for commercial vehicles
 - Coordination of video and radar toolchain for determining and storing jointly recorded data records
 - Adaptation of the toolchains to the different vehicles and countries of the endurance run
-- Adaptation of the toolchains to the different vehicles and countries of the endurance run.
+- Tool development for the automated adaptation of incorrect video, radar and label files to the requirements of the toolchains
+
+Toolentwicklung für die automatisierte anpassungen von inkorrekten Video-, Radar- und Label-Dateieen an die Anforderungen der Toolchains
 
 **Working Student @ Robert Bosch GmbH (_October 2016_ - _September 2019_)**
 - Development of software to operate a mobile spectrometer
@@ -24,6 +26,14 @@ Execution System server for a log register with subsequent data mining
 
 
 ## Projects 
+
+### Encoding electronic health records with temporal transformers for clinical decision support
+
+In my master thesis I developed a novel approach to online multi-horizon clinical decision support using machine learning models trained solely on unstructured textual content and corresponding temporal data from electronic health recordsm (EHRs). The designed architecture employs hierarchical transformers with a late fusion strategy, leveraging a pre-trained LLM (Clinical Longformer) for note embeddings to reduce computational overhead. The temporal transformer enables the model to operate in an online mode and predict mortality in multiple rolling time horizons based on the textual content available in a patient’s EHR at any given point during their stay in the Intensive Care Unit (ICU). A multi-task learning objective was introduced to jointly predict mortality for all horizons, including short-term, medium-term, and total mortality. This objective allows the model to focus on predicting patient mortality across various time horizons. The model learns a shared representation of the patient across time horizons through the conditioning of long-term predictions on short-term predictions. This improves the performance of short-term predictions.
+
+<p align="center">
+  <img src="/assets/model_v2.JPG">
+</p>
 
 ### Self-Supervised Learning for Medical Image Analysis
 
@@ -35,6 +45,13 @@ In this group project we employ Barlow Twins pre-training on a ResNet-18 backbon
 <p align="center">
   <img src="/assets/ssl.JPG">
 </p>
+
+### Sentiment analysis
+
+[Report](/assets/NLP_Report.pdf)
+
+Sentiment analysis plays a crucial role in understanding public opinion and sentiment expressed in textual data. In this project, the goal was to classify movie reviews as positive or negative using different models and feature sets. The dataset used was the Rotten Tomatoes dataset, which contains labelled movie reviews. The Naive Bayes models performed well, with an accuracy of about 76%. SVM models performed slightly worse than Naive Bayes, while LSTM models, especially with word2vec embeddings, showed improved accuracy, reaching around 77%. The BERT model, fine-tuned to the dataset,emerged as the best performing model with an accuracy of 80.30%.
+
 
 ### Counterfactual Explanations and the CARLA Library
 
