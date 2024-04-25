@@ -11,12 +11,10 @@
 ## Work Experience
 
 **Tool Developer @ Robert Bosch GmbH ( _November 2019_ - _October 2021_)** 
-- Development and automation of toolchains for checking and determining metadata,integrating AI components such as computer vision to mark special situation such as construction sites, and storing data records from driver assistance systems (radar and video) for commercial vehicles
+- Development and automation of toolchains for checking and determining metadata, integrating AI components such as computer vision to mark special situation such as construction sites, and storing data records from driver assistance systems (radar and video) for commercial vehicles
 - Coordination of video and radar toolchain for determining and storing jointly recorded data records
 - Adaptation of the toolchains to the different vehicles and countries of the endurance run
 - Tool development for the automated adaptation of incorrect video, radar and label files to the requirements of the toolchains
-
-Toolentwicklung für die automatisierte anpassungen von inkorrekten Video-, Radar- und Label-Dateieen an die Anforderungen der Toolchains
 
 **Working Student @ Robert Bosch GmbH (_October 2016_ - _September 2019_)**
 - Development of software to operate a mobile spectrometer
