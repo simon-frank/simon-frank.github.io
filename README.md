@@ -26,6 +26,7 @@ Execution System server for a log register with subsequent data mining
 ## Projects 
 
 ### Encoding electronic health records with temporal transformers for clinical decision support
+[Thesis](/assets/SimonFrank_MasterThesis.pdf)
 
 In my master thesis I developed a novel approach to online multi-horizon clinical decision support using machine learning models trained solely on unstructured textual content and corresponding temporal data from electronic health recordsm (EHRs). The designed architecture employs hierarchical transformers with a late fusion strategy, leveraging a pre-trained LLM (Clinical Longformer) for note embeddings to reduce computational overhead. The temporal transformer enables the model to operate in an online mode and predict mortality in multiple rolling time horizons based on the textual content available in a patient’s EHR at any given point during their stay in the Intensive Care Unit (ICU). A multi-task learning objective was introduced to jointly predict mortality for all horizons, including short-term, medium-term, and total mortality. This objective allows the model to focus on predicting patient mortality across various time horizons. The model learns a shared representation of the patient across time horizons through the conditioning of long-term predictions on short-term predictions. This improves the performance of short-term predictions.
 
