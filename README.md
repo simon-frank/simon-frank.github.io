@@ -65,7 +65,7 @@ There is a growing reliance on machine learning classifiers for important decisi
 
 ### Semantic Segmentation with Generative Models: Semi-Supervised Learning and Strong Out-of-Domain Generalization
 
-[Report](/assets/LGM.pdf)
+[Presentation](/assets/LGM.pdf)
 
 This presentation is based on the paper [Semantic Segmentation with Generative Models: Semi-Supervised Learning and Strong Out-of-Domain Generalization](https://arxiv.org/pdf/2104.05833). I had a deep dive into how to use a StyleGAN2 to perform semantic segmentation using a fully generative approach. During the hackathon part of this seminar, I used the pSp encoder from the StyleGAN paper [Encoding in Style: a StyleGAN Encoder for Image-to-Image Translation](https://arxiv.org/pdf/2008.00951) to perform test-time optimization, which is a crucial part of my presented paper.
 
