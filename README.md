@@ -45,6 +45,7 @@ In this group project we employ Barlow Twins pre-training on a ResNet-18 backbon
   <img src="/assets/ssl.JPG">
 </p>
 
+
 ### Sentiment analysis
 
 [Report](/assets/NLP_Report.pdf)
@@ -62,7 +63,11 @@ There is a growing reliance on machine learning classifiers for important decisi
   <img src="/assets/recourse.png">
 </p>
 
+### Semantic Segmentation with Generative Models: Semi-Supervised Learning and Strong Out-of-Domain Generalization
 
+[Report](/assets/LGM.pdf)
+
+This presentation is based on the paper [Semantic Segmentation with Generative Models: Semi-Supervised Learning and Strong Out-of-Domain Generalization](https://arxiv.org/pdf/2104.05833). I had a deep dive into how to use a StyleGAN2 to perform semantic segmentation using a fully generative approach. During the hackathon part of this seminar, I used the pSp encoder from the StyleGAN paper [Encoding in Style: a StyleGAN Encoder for Image-to-Image Translation](https://arxiv.org/pdf/2008.00951) to perform test-time optimization, which is a crucial part of my presented paper.
 
 ### Cognitive Modeling
 
