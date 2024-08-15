@@ -97,7 +97,7 @@ In this group project, we created a search engine for content related to Tübing
 
 [Report](/assets/data_literacy.pdf)
 
-In this report, we attempt to answer the question of whether or not the momentum an NBA team experiences, affects their next games result in a significant way. We, therefore, perform different chi-squared independence tests. The required match data is obtained in form of a dataset containing basketball results from the last 16 seasons. Every p-value of the performed chi-squared independence tests is significantly smaller than the chosen significance level of $5 \%$. Therefore every null hypothesis can be rejected, which implies, that for the given dataset it is very unlikely that there is no impact of momentum, no matter where a game takes place or which definition and streak length is applied. 
+In this report, we attempt to answer the question of whether or not the momentum an NBA team experiences, affects their next games result in a significant way. We, therefore, perform different chi-squared independence tests. The required match data is obtained in form of a dataset containing basketball results from the last 16 seasons. Every p-value of the performed chi-squared independence tests is significantly smaller than the chosen significance level of $5\%$. Therefore every null hypothesis can be rejected, which implies, that for the given dataset it is very unlikely that there is no impact of momentum, no matter where a game takes place or which definition and streak length is applied. 
 
 
 ### System Biology I
