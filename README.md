@@ -10,6 +10,9 @@
 
 ## Work Experience
 
+**AI Specialist @ Rheinmetall Landsysteme GmbH Kassel (_February 2025_ - _present_)** 
+- Integration of AI into engineering processes
+
 **Tool Developer @ Robert Bosch GmbH Abstatt (_November 2019_ - _October 2021_)** 
 - Development and automation of toolchains for checking and determining metadata, integrating AI components such as computer vision to mark special situation such as construction sites, and storing data records from driver assistance systems (radar and video) for commercial vehicles
 - Coordination of video and radar toolchain for determining and storing jointly recorded data records
